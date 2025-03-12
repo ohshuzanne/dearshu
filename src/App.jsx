@@ -1,6 +1,8 @@
 import { useState } from "react";
 import MessageForm from "./components/MessageForm";
 import MessageList from "./components/MessageList";
+import Image1 from "./assets/answers.png";
+import Image2 from "./assets/logo.png";
 import "./styles.css";
 
 function App() {
@@ -32,14 +34,14 @@ function App() {
         <section className="content-section">
           {activeTab === "send" ? (
             <div className="send-section">
-              <img src="/assets/logo.png" alt="Logo" />
+              <img src={Image2} alt="Logo" />
               <h2>Ask me anything!</h2>
               <p className="intro-text">Have a question for me? Send me one anonymously!</p>
               <MessageForm onMessageSent={handleMessageSent} />
             </div>
           ) : (
             <div className="list-section">
-              <img src="/assets/answers.png" alt="Answer" />
+              <img src={Image1} alt="Answer" />
               <h2>Q&A
     
               </h2>
