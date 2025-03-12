@@ -208,7 +208,7 @@ button[type="submit"]:hover {
   display: block;
   margin: 0 auto;
   padding-bottom:20;
-  max-height:120px;
+  max-height:180px;
 }
 
 .pagination {
