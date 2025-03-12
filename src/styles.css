@@ -247,6 +247,27 @@ button.refresh-button:disabled {
   cursor: not-allowed;
 }
 
+.share-button {
+  background: #fff;
+  color: #5260f0;
+  border: none;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px;
+  border: 1px solid #5260f0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: block;
+  margin-left: auto;
+}
+
+.share-button:hover {
+  background: #d9e4ff;
+  transform: translateY(-2px);
+}
+
+
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .folder-content {
