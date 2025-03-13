@@ -34,7 +34,7 @@ const MessageList = ({ refresh }) => {
   const currentMessages = messages.slice(indexOfFirstMessage, indexOfLastMessage);
 
   const shareOnTwitter = (question, answer) => {
-    const text = `Q: ${question}%0A ⭐ A: ${answer} %0A%0AAsk me anything anonymously at https://ohshuzanne.github.io/dearshu/`;
+    const text = `Q: ${question}%0A ⭐ A: ${answer} %0A%0AAsk me anything anonymously at https://shorturl.at/dGFpo`;
     const twitterURL = `https://x.com/intent/tweet?text=${text}`;
     window.open(twitterURL, "_blank");
   };
