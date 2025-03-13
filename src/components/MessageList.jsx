@@ -69,10 +69,10 @@ const MessageList = ({ refresh }) => {
       {/* Pagination Buttons */}
       <div className="pagination">
         <button onClick={() => setCurrentPage(currentPage - 1)} disabled={currentPage === 1}>
-          ◀ Previous
+          Previous
         </button>
         <button onClick={() => setCurrentPage(currentPage + 1)} disabled={indexOfLastMessage >= messages.length}>
-          Next ▶
+          Next
         </button>
       </div>
     </div>
